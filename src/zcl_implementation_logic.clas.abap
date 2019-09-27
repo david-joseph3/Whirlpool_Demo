@@ -4,8 +4,8 @@ CLASS zcl_implementation_logic DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
-  DATA: VAL type I.
-  METHODS GET_VAL RETURNING VALUE(rv_val) type i.
+  DATA: VAL type CHAR08.
+  METHODS GET_VAL RETURNING VALUE(rv_val) type CHAR08.
   methods constructor.
   PROTECTED SECTION.
   PRIVATE SECTION.
